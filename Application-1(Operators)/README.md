@@ -1,4 +1,4 @@
-<h1>Operatör Uygulaması</h1>
+<h1>vücut Kilo İndeksi Uygulaması</h1>
 Bu çalışmada iki kişinin vücut kilo indeksi hesaplayarak aritmetik, karşılaştırma ve mantıksal operatörler kullanılarak consola yansıtılmıştır. <br>
 Ali ve Can'a sabit kilo ve boy verilmiştir.<br>
 Vücut kilo indeksi hesaplayıp konsola yansıtılmıştır. <br>
