@@ -1,5 +1,5 @@
 <h1>Döngüler</h1>
-Döngüler, bir kod bloğunu birkaç kez çalıştımak için kullanılır. Her seferinde farklı değerle kod bloğunu çalıştırır. <br>
+Döngüler, bir kod bloğunu birkaç kez çalıştımak için kullanılır. Her seferinde farklı değerle kod bloğunu çalıştırır. <br><br>
 Döngü çeşitleri:
 <ul>
   <li>For döngüsü</li>
