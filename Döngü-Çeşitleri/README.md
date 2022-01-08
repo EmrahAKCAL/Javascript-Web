@@ -6,6 +6,6 @@ Döngü çeşitleri:
   <li>For-in döngüsü</li>
   <li>While döngüsü</li>
   <li>Do-while döngüsü </li>
-  <li>Foreach</li>
+  <li>For of</li>
 </ul>
   
