@@ -1,0 +1,98 @@
+#box{
+    width: 600px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+#card-first{
+    border: 1px solid grey;
+    height: 200px;
+    text-align: center;
+}
+#card-header{
+    background-color:#f0f0f0;
+    padding: 20px;
+    border: 1px solid gray;
+    font-size: 22px;
+}
+#card-body{
+    display: flex;
+    padding: 20px;
+    position: fixed;
+}
+#addTaskForm{
+    padding-left: 100px;
+    margin-top: 10px;
+}
+#input-text{
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 25px;
+}
+.add-btn{
+    color: white;
+    background-color: blue;
+    padding: 12px;
+    margin:0;
+    border-radius: 15px;
+}
+.add-btn:hover{
+    opacity: .7;
+}
+#card-second{
+    margin-top: 30px;
+    border: 1px solid grey;
+    background-color: #e2e2e2;
+}
+#list-box{
+    padding: 0px;
+    margin: 0px;
+    
+}
+.header-second{
+    border: 1px solid grey;
+    padding: 10px;
+    list-style-type: none;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.header-second:hover{
+    opacity: 0.5;
+    color: #f0f0f0;
+}
+.delete-item{
+    float: right;
+    border: 1px solid red;
+    padding: 2px;
+    text-decoration: none;
+    color: red;
+}
+.delete-item:hover{
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.delete-times{
+    color: grey;
+    float: right;
+}
+.delete-times:hover{
+    color: blue;
+}
+.list-first{
+    background-color: #c5c5c5;
+    height: 25px;
+}
+.list-second{
+    background-color: #999999;
+}
+.list-third{
+    background-color: #c5c5c5;
+}
+.list-fourth{
+    background-color: #999999;
+}
+.list-fifth{
+    background-color: #c5c5c5;
+}
