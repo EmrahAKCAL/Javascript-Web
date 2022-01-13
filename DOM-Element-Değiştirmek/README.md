@@ -4,5 +4,5 @@
   <li><b><i>B=document.createElement('element');</i></b>  Yeni element iskeleti tanımlanılır.<br>Yeni element yapısı(attribute-text) oluşturulur.
     </li>
   <li><b><i>C= document.querySelector(' ');</i></b>  Ana iskelet yapısı(değişecek elementin bir üst elementi)</li>
-  <li><b><i>C.replaceChild(B, A);</i></b>Eski elementin yerine yeni element eklenilir.</li>
+  <li><b><i>C.replaceChild(B, A);</i></b>   Eski elementin yerine yeni element eklenilir.</li>
   </ul>
