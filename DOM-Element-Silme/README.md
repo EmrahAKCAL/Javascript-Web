@@ -1,6 +1,6 @@
 <h1>Element-Attribute Silme</h1>
 Silinecek elemanın dokümentine ulaşılır. Etiket <b><i>.remove();</i></b> özelliğiyle silinme işlemi gerçekleştirilir.<br>
-<b><i>const taskList=document.qerySelector('#card-second');</i></b> id='card-second' etiketine ulaşıldı<br>
+Silinecek elementin iskeletine ulaşılır.<b><i>const taskList=document.qerySelector('#card-second');</i></b> id='card-second' etiketine ulaşıldı<br>
 <table>
   <thead>
     <tr>
