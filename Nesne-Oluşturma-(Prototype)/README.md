@@ -5,3 +5,4 @@ Constructor içerisinde tanımlanan değişkenlere ulaşıp bu değişkenler üz
     return 2022-this.yearsOfBirth;<br>
   }</i></b><br>
   Yukaradaki gibi constructor kalıbın içerisinde tanımlanan yearsOfBirth değişkeni prototype fonksiyonu içerisinde kullanılarak işlem yapılmıştır.<br>
+<b><i>hasOwnProperty('name')</b>: 'name' adında bir değişken içerip içermediğini sorgulamak</i> 
