@@ -1,0 +1,2 @@
+<h1>Extend(Kalıtım) Uygulaması</h1>
+Bu çalışmada bir person constructor oluşturulmuştur. Bu constructora bağlı olarak bir student, teacher ve headmaster constructorları oluşturulmuştur. Headmaster constructor teacher bilgileri içerdiği için teacher prototype ve constructor kısımları kalıtım yoluyla headmaster içerisine atanmıştır.  Student constructor ı person constructor bilgilerini tek içermektedir. Her oluşturulan constructorın kendine ait ek özellikler barındırmaktadır. Dolayısıyla headmaster da bir teacher olduğu için  teacher constructorı içermektedir.
