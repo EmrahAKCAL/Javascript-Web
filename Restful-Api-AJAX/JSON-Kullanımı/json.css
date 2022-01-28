@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-top: 50px;
+}
+
+#getEmployee{
+    margin-top: 10px;
+    background-color: green;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.btn{
+    text-align: center;
+}
+#loading{
+    text-align: center;
+    display: none;
+    
+}
+.table{
+    width: 800px;
+    margin-left: 20px;
+}
+#table-header{
+    color: #fff;
+    height: 50px;
+    font-size: 22px;
+    background-color: #9c0094;
+}
+#employees{
+    color: rgb(88, 5, 5);
+    font-size: 20px;
+    background-color: #ccb8a5;
+    text-indent: 15px;
+}

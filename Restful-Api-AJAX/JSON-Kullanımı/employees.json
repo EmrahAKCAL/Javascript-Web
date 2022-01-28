@@ -1,0 +1,26 @@
+[
+    {
+        "firstName": "Mert",
+        "lastName": "Yılmaz",
+        "age": 19,
+        "job": "Student"
+    },
+    {
+        "firstName": "Can",
+        "lastName": "Aslan",
+        "age": 27,
+        "job": "Engineer"
+    },
+    {
+        "firstName": "Aslı",
+        "lastName": "Kara",
+        "age": 35,
+        "job": "Teacher"
+    },
+    {
+        "firstName": "Melis",
+        "lastName": "Kurt",
+        "age": 26,
+        "job": "Police"
+    }
+]
