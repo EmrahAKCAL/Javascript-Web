@@ -1,5 +1,6 @@
 <h1>AJAX Nedir ve Nasıl Çalışır?</h1>
-AJAX veri değişimi ve sunuş katmanının birbirlerinin fonksiyonlarına karışmadan <ins>aynı anda</ins> çalışmalarına olanak sağlar.<br>
+AJAX veri değişimi ve sunuş katmanının birbirlerinin fonksiyonlarına karışmadan <b><i>aynı anda</i></b> çalışmalarına olanak sağlar.<br>
+
 AJAX, <b><i>A</i></b>synchronous <b><i>J</i></b>avaScript <b><i>A</i></b>nd <b><i>X</i></b>ML, Türkçe olarak Eşzamansız ve XML’in kısaltılmışıdır. 
 Sunucuya gelen herhangi bir isteği arkaplanda işleyerek web uygulamalarının eşzamanlı olmadan çalışmasına olanak sağlayan bir takım <b><i>web geliştirme teknikleridir.</i></b><br> 
 XML(eXtensible Markup Language) – Genişletebilir İşaretleme Dili, HTML gibi işaretleme dilinin başka bir değişkenidir. 
@@ -55,10 +56,33 @@ AJAX’ın Pratik Örnekleri
       <td>4. Web tarayıcısı istenilen veriyi alır, veri ise sayfada direkt olarak gözükür. Sayfayı yenilemek gerekmez.</td>
     </tr>
   </tbody>
-</table>
-  
+</table><br>
 
+<b><i>var xhr= new XMLHttpRequest();</b> //<br>
+<b>xhr.onreadystatechange =function(){</b> //olay tetiklendiğinde <br>
+    <b>if(xhr.readyState===4){ </b>//4: hazır mı, 200: başarılı mı bir sonuç üretmiş mi(durumu) <br>
+        <b>if(xhr.status===200){ </b> <br>
+        <b>console.log(xhr.responseText); </b>//gelen bilginin text i yazdır <br>
+        <b>} </b> <br>
+       <b> else if(xhr.status===404){ </b> <br>
+        <b>    console.log('Kaynak bulunamadı'); </b> <br>
+        <b>}  <br>
+    }<br>
+}</b> <br>
 
-
-
-
+  <b>xhr.open('GET', 'msg.txt', true);</b> //dosya talep, dosya ismi, senkron(false)/asenkron(true) <br>
+  <b>xhr.send(); </b>//xhr ile server bilgilendirme <br>
+  <b>readyState</b>
+<ul>
+  <li>0: request not initialized-- Request henüz başlatılmamış </li>
+  <li>1: server connection established-- Eğer kurulmuşsa  </li>
+  <li>2: reques received-- request server tarafından alınmışsa </li>
+  <li>3: processing request-- Server tarafında halen işletilmekte ise </li>
+  <li>4: request finished and response is ready-- Bitmiş ve hazır ise </li>
+</ul>
+    <b>status</b>
+<ul>
+  <li>200: "OK"--- Sonuç başarılı </li>
+  <li>403: "Forbidden"--- Talebin onaylanmadığı </li>
+  <li>404: "Not Found"--- Kaynak bulunmadığı </li>
+</ul>
