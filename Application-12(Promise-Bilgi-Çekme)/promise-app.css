@@ -1,0 +1,21 @@
+.container{
+    width: 500px;
+    margin: auto;
+}
+#input-text{
+    padding: 5px;
+    width: 200px;
+    font-size: 20px;
+}
+#btn{
+    padding: 5px;
+    width: 80px;
+    font-size: 20px;
+    background-color: indigo;
+    border: none;
+    color: #fff;
+}
+#users{
+    margin-top: 10px;
+    line-height: 150%;
+}
