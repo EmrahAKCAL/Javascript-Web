@@ -1,0 +1,50 @@
+
+.container{
+    margin: auto;
+}
+.input-group{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.form-control{
+    width: 300px;
+    font-size: 22px;
+    padding: 5px;
+}
+.btn{
+    font-size: 22px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+#getOne{
+    color: #ffffff;
+    background-color: rgb(116, 199, 0);
+}
+#getAll{
+    color: #ffffff;
+    background-color: #bd015f;
+}
+#postData{
+    color: #ffffff;
+    background-color: #0c09eb;
+}
+.card{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    border: 1px solid #c5c5c5;
+}
+.card-header{
+    background-color: #e1dede;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding: 5px;
+}
+.card-body{
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
