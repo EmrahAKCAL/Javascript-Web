@@ -1,0 +1,89 @@
+.container{
+    background-color: orange;
+    height: 50px;
+    padding-top: 10px;
+}
+.navbar-brand{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.card{
+    border-bottom: 1px solid grey;
+    background-color: #f5f3f3;
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+.card-body{
+    display: inline-block;
+}
+.lead{
+    color: #00000082;
+    font-size: 18px;
+}
+
+#searchProfile{
+    font-size: 22px;
+    padding: 5px;
+    border-radius: 4px;
+}
+#alert{
+    display: block;
+    background-color: red;
+    padding: 5px;
+    letter-spacing: 1px;
+}
+.card-row{
+    display: flex;
+    background-color: #e8e4e8;
+}
+.userContact{
+    margin: 0px;
+    font-size: 35px;
+    text-align: center;
+}
+.user-list{
+    margin:0px;
+    padding: 0px;
+    padding-left: 10px;
+    font-size: 18px;
+    background-color: #e8e4e8;
+    list-style: none;
+}
+li{
+    margin-bottom: 10px;
+}
+.list-brd{
+    border-bottom: 1px solid #a99c9c77;
+    padding: 5px;
+}
+.list-span{
+    font-weight: bold;
+}
+.todo-title{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+#todo-list{
+    margin:0px;
+    padding: 0px;
+    padding-left: 20px;
+    font-size: 18px;
+    background-color: #ce6d2daa;
+    list-style: none;
+}
+#todo{
+    list-style: none;
+}
+.bg-success{
+    background-color: #00d6fc8e;
+    padding: 5px;
+    border-radius: 8px;
+}
+.bg-secondary{
+    background-color: #d1dddf8e;
+    padding: 8px;
+    border-radius: 8px;
+}
